@@ -34,7 +34,7 @@ desafio-1/
 1. **Clone este repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/formacao-machine-learning-specialist-dio.git
+   git clone https://github.com/felipecidade94/formacao-machine-learning-specialist-dio.git
    cd formacao-machine-learning-specialist-dio/desafio-1
    ```
 2. **Crie e ative um ambiente virtual (recomendado)**:
