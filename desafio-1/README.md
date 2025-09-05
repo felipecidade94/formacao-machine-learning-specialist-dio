@@ -1,63 +1,83 @@
-# Desafio de Projeto - Formação Machine Learning Specialist (DIO)
+# 🐱🐶 Classificação de Imagens - Gatos e Cachorros (Transfer Learning)
 
-Este repositório contém a solução do **primeiro desafio da Formação Machine Learning Specialist da Digital Innovation One (DIO)**.
-O objetivo é aplicar os conceitos iniciais de **Machine Learning** por meio da análise exploratória, tratamento de dados e construção de modelos preditivos em Python.
-
----
-
-## 📌 Objetivos do Desafio
-
-- Reforçar fundamentos de **Python para transfer learning**.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- Python 3.x
-- Jupyter Notebook
-- tensorflow
-- matplotlib
+Este repositório contém a implementação do **primeiro desafio de projeto** da Formação **Machine Learning Specialist** da [DIO](https://www.dio.me/).  
+O objetivo é aplicar **Transfer Learning** para treinar um modelo capaz de classificar imagens entre **gatos** e **cachorros**, utilizando uma base de dados organizada em treino e validação.
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-```
-├── desafio-de-projeto-1.ipynb   # Notebook com a solução completa
-├── requirements.txt             # Dependências necessárias
-├── README.md                    # Documentação do projeto
+```bash
+desafio-1/
+│── cats_and_dogs_filtered/      # Dataset organizado
+│   ├── train/                   # Conjunto de treino
+│   │   ├── cats/                # Imagens de gatos (treino)
+│   │   └── dogs/                # Imagens de cachorros (treino)
+│   └── validation/              # Conjunto de validação
+│       ├── cats/                # Imagens de gatos (validação)
+│       └── dogs/                # Imagens de cachorros (validação)
+│
+│── vectorize.py                 # Script para pré-processamento/vetorização
+│── desafio-de-projeto-1.ipynb   # Notebook principal com a solução
+│── requirements.txt             # Dependências do projeto
+│── README.md                    # Este arquivo
+│── LICENSE                      # Licença de uso
+│── .gitignore                   # Arquivos ignorados pelo Git
+│── venv/                        # Ambiente virtual (não incluso no Git)
+│── teste.png / teste2.jpg ...   # Imagens auxiliares
 ```
 
 ---
 
-## ▶️ Como Executar
+## 🚀 Como Executar o Projeto
 
-1. Clone este repositório:
+1. **Clone este repositório**:
    ```bash
-   git clone https://github.com/felipecidade94/formacao-machine-learning-specialist-dio
+   git clone https://github.com/seu-usuario/formacao-machine-learning-specialist-dio.git
+   cd formacao-machine-learning-specialist-dio/desafio-1
    ```
-2. Acesse a pasta do projeto:
+
+2. **Crie e ative um ambiente virtual (recomendado)**:
    ```bash
-   cd desafio-ml-dio
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
    ```
-3. Instale as dependências (recomendado usar um ambiente virtual):
+
+3. **Instale as dependências**:
    ```bash
    pip install -r requirements.txt
    ```
-4. Execute o Jupyter Notebook:
-   ```bash
-   jupyter notebook desafio-de-projeto-1.ipynb
-   ```
+
+4. **Execute o notebook do projeto**:
+   Abra o arquivo `desafio-de-projeto-1.ipynb` no **Jupyter Notebook** ou **VS Code** e siga as etapas para:
+   - Carregar o dataset  
+   - Aplicar Transfer Learning  
+   - Treinar e avaliar o modelo  
 
 ---
 
-## 📖 Aprendizados
+## 🧠 Técnicas Utilizadas
 
-Este desafio permitiu praticar:
-
-- Aplicação prática de transfer learning.
+- **Transfer Learning** com redes neurais pré-treinadas
+- **Keras / TensorFlow** para modelagem
+- **Data Augmentation** para melhorar a generalização
+- Avaliação do modelo em **treino e validação**
 
 ---
 
-Este projeto foi desenvolvido para fins educacionais da Formação Machine Learning Specialist da DIO.
-Sinta-se à vontade para usar como referência ou inspiração.
+## 📌 Observações
+
+- O dataset já está organizado em pastas (`train` e `validation`), o que facilita o carregamento via `ImageDataGenerator` do Keras.
+- O script `vectorize.py` pode ser usado para auxiliar no pré-processamento ou organização de dados adicionais.
+- Os arquivos `teste.png`, `teste2.jpg`, `teste3.jpg` podem ser utilizados para **inferencia manual** após o treinamento do modelo.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE).  
+Sinta-se à vontade para usar, modificar e compartilhar.
+
+---
+✍️ Desenvolvido por **Breno Felisbino** durante a Formação *Machine Learning Specialist - DIO*
