@@ -1,6 +1,6 @@
-# 🐱🐶 Classificação de Imagens - Gatos e Cachorros (Transfer Learning)
+# Classificação de Imagens - Gatos e Cachorros (Transfer Learning)
 
-Este repositório contém a implementação do **primeiro desafio de projeto** da Formação **Machine Learning Specialist** da [DIO](https://www.dio.me/).  
+Este repositório contém a implementação do **primeiro desafio de projeto** da Formação **Machine Learning Specialist** da [DIO](https://www.dio.me/).
 O objetivo é aplicar **Transfer Learning** para treinar um modelo capaz de classificar imagens entre **gatos** e **cachorros**, utilizando uma base de dados organizada em treino e validação.
 
 ---
@@ -32,28 +32,29 @@ desafio-1/
 ## 🚀 Como Executar o Projeto
 
 1. **Clone este repositório**:
+
    ```bash
    git clone https://github.com/seu-usuario/formacao-machine-learning-specialist-dio.git
    cd formacao-machine-learning-specialist-dio/desafio-1
    ```
-
 2. **Crie e ative um ambiente virtual (recomendado)**:
+
    ```bash
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
    ```
-
 3. **Instale as dependências**:
+
    ```bash
    pip install -r requirements.txt
    ```
-
 4. **Execute o notebook do projeto**:
    Abra o arquivo `desafio-de-projeto-1.ipynb` no **Jupyter Notebook** ou **VS Code** e siga as etapas para:
-   - Carregar o dataset  
-   - Aplicar Transfer Learning  
-   - Treinar e avaliar o modelo  
+
+   - Carregar o dataset
+   - Aplicar Transfer Learning
+   - Treinar e avaliar o modelo
 
 ---
 
@@ -76,8 +77,9 @@ desafio-1/
 
 ## 📄 Licença
 
-Este projeto está sob a licença [MIT](./LICENSE).  
+Este projeto está sob a licença [MIT](./LICENSE).
 Sinta-se à vontade para usar, modificar e compartilhar.
 
 ---
-✍️ Desenvolvido por **Breno Felisbino** durante a Formação *Machine Learning Specialist - DIO*
+
+✍️ Desenvolvido por **Felipe Cidade Soares** durante a Formação *Machine Learning Specialist - DIO*
