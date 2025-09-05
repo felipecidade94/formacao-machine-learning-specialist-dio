@@ -77,7 +77,7 @@ desafio-1/
 
 ## 📄 Licença
 
-Este projeto está sob a licença [MIT](./LICENSE).
+Este projeto está sob a licença MIT.
 Sinta-se à vontade para usar, modificar e compartilhar.
 
 ---
